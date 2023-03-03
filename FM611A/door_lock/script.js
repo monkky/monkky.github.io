@@ -128,6 +128,7 @@ function loadLabel() {
       const descriptions = []
       for (let i = 1; i <= 3; i++) {
         try {
+          conso;e.log(`images/${label}/${i}.jpg`);
           img = await faceapi.fetchImage(`images/${label}/${i}.jpg`)
         }
         catch (e) {
